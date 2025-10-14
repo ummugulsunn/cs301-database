@@ -1,196 +1,196 @@
-# CS301 Veritabanı Yönetim Sistemleri
+# CS301 Database Management Systems
 
-**Ders Materyalleri ve Uygulama Dosyaları**
+**Course Materials and Practice Files**
 
-Bu repository, CS301 Veritabanı Yönetim Sistemleri dersi için hazırlanmış materyalleri içerir.
+This repository contains materials for CS301 Database Management Systems course.
 
-## 📚 Ders Hakkında
+## 📚 Course Info
 
-- **Ders Kodu**: CS301
-- **Ders Adı**: Veritabanı Yönetim Sistemleri  
-- **Öğretim Yılı**: 2025-2026
+- **Course Code**: CS301
+- **Course Name**: Database Management Systems  
+- **Academic Year**: 2025-2026
 - **IDE**: DataGrip
-- **Veritabanı**: MySQL/PostgreSQL
+- **Database**: MySQL/PostgreSQL
 
-### 🎯 Ders Hedefleri
+### 🎯 Course Goals
 
-- SQL temellerini öğrenmek
-- Veritabanı tasarım prensiplerini anlamak
-- DataGrip ile pratik yapmak
-- Gerçek hayat senaryolarını uygulamak
+- Learn SQL basics
+- Understand database design principles
+- Practice with DataGrip
+- Apply real-world scenarios
 
-## 📁 Dosya Yapısı
+## 📁 File Structure
 
 ```
 cs301-database/
-├── 📚 docs/                          # Ders dokümanları
+├── 📚 docs/                          # Course documentation
 │   ├── Database_Management_Fundamentals_Guide.md
 │   └── README_How_to_Use.md
-├── 🗄️ database/                      # SQL dosyaları
-│   ├── 01_Database_Setup.sql         # Veritabanı oluşturma
-│   ├── 02_Sample_Data_Insert.sql     # Örnek veriler
-│   ├── 03_Basic_Queries.sql          # Temel SQL sorguları
-│   ├── 04_Advanced_Queries.sql       # İleri seviye teknikler
-│   ├── 05_DML_Operations.sql         # Veri işleme
-│   └── 06_DataGrip_Practice.sql      # Pratik alıştırmalar
-├── 📖 lectures/                      # Ders notları
-├── 🎯 exercises/                     # Alıştırmalar
-├── 📊 projects/                      # Projeler
-└── 📝 notes/                         # Kişisel notlar
+├── 🗄️ database/                      # SQL files
+│   ├── 01_Database_Setup.sql         # Database creation
+│   ├── 02_Sample_Data_Insert.sql     # Sample data
+│   ├── 03_Basic_Queries.sql          # Basic SQL queries
+│   ├── 04_Advanced_Queries.sql       # Advanced techniques
+│   ├── 05_DML_Operations.sql         # Data manipulation
+│   └── 06_DataGrip_Practice.sql      # Practice exercises
+├── 📖 lectures/                      # Lecture notes
+├── 🎯 exercises/                     # Exercises
+├── 📊 projects/                      # Projects
+└── 📝 notes/                         # Personal notes
 ```
 
-## 🚀 Başlangıç
+## 🚀 Quick Start
 
-### Gereksinimler
+### Requirements
 
-- DataGrip IDE (Öğrenciler için ücretsiz)
-- MySQL veya PostgreSQL veritabanı sunucusu
+- DataGrip IDE (Free for students)
+- MySQL or PostgreSQL database server
 
-### Kurulum Adımları
+### Setup Steps
 
-1. **Repository'yi klonla**
+1. **Clone repository**
    ```bash
    git clone https://github.com/your-username/cs301-database.git
    cd cs301-database
    ```
 
-2. **DataGrip'i ayarla**
-   - DataGrip IDE'yi yükle
-   - Yeni veritabanı bağlantısı oluştur
-   - MySQL/PostgreSQL sunucusunu yapılandır
+2. **Setup DataGrip**
+   - Install DataGrip IDE
+   - Create new database connection
+   - Configure MySQL/PostgreSQL server
 
-3. **Veritabanını başlat**
+3. **Initialize database**
    ```sql
-   -- DataGrip'te setup scriptini çalıştır
-   -- Dosya: database/01_Database_Setup.sql
+   -- Run setup script in DataGrip
+   -- File: database/01_Database_Setup.sql
    ```
 
-4. **Örnek verileri yükle**
+4. **Load sample data**
    ```sql
-   -- Veri ekleme scriptini çalıştır
-   -- Dosya: database/02_Sample_Data_Insert.sql
+   -- Run data insertion script
+   -- File: database/02_Sample_Data_Insert.sql
    ```
 
-5. **Pratik yapmaya başla**
+5. **Start practicing**
    ```sql
-   -- Temel sorgularla başla
-   -- Dosya: database/03_Basic_Queries.sql
+   -- Begin with basic queries
+   -- File: database/03_Basic_Queries.sql
    ```
 
-## 📖 Ders İçeriği
+## 📖 Course Content
 
-### Hafta 1: Veritabanı Temelleri
-- [ ] Veritabanı kavramları ve terminoloji
-- [ ] Entity-Relationship modelleme
-- [ ] Veritabanı tasarım prensipleri
-- [ ] Geliştirme ortamının kurulması
+### Week 1: Database Fundamentals
+- [ ] Database concepts and terminology
+- [ ] Entity-Relationship modeling
+- [ ] Database design principles
+- [ ] Development environment setup
 
-### Hafta 2: SQL Temelleri
+### Week 2: SQL Basics
 - [ ] Data Definition Language (DDL)
 - [ ] Data Manipulation Language (DML)
-- [ ] Temel SELECT sorguları
-- [ ] WHERE, ORDER BY, GROUP BY cümlecikleri
+- [ ] Basic SELECT queries
+- [ ] WHERE, ORDER BY, GROUP BY clauses
 
-### Hafta 3: İleri SQL
-- [ ] JOIN işlemleri (INNER, LEFT, RIGHT, FULL)
-- [ ] Alt sorgular ve ilişkili alt sorgular
-- [ ] Window fonksiyonları
+### Week 3: Advanced SQL
+- [ ] JOIN operations (INNER, LEFT, RIGHT, FULL)
+- [ ] Subqueries and correlated subqueries
+- [ ] Window functions
 - [ ] Common Table Expressions (CTEs)
 
-### Hafta 4: Pratik Uygulamalar
-- [ ] Veritabanı optimizasyonu ve indeksleme
-- [ ] İşlem yönetimi
-- [ ] Veri bütünlüğü ve kısıtlamalar
-- [ ] Gerçek hayat projesi uygulaması
+### Week 4: Practical Applications
+- [ ] Database optimization and indexing
+- [ ] Transaction management
+- [ ] Data integrity and constraints
+- [ ] Real-world project implementation
 
-## 🛠️ Araçlar ve Teknolojiler
+## 🛠️ Tools and Technologies
 
-| Araç | Amaç | Versiyon |
-|------|------|----------|
-| **DataGrip** | Veritabanı IDE | Son |
-| **MySQL** | Veritabanı Sunucusu | 8.0+ |
-| **PostgreSQL** | Alternatif DB | 13+ |
-| **Git** | Versiyon Kontrolü | Son |
+| Tool | Purpose | Version |
+|------|---------|---------|
+| **DataGrip** | Database IDE | Latest |
+| **MySQL** | Database Server | 8.0+ |
+| **PostgreSQL** | Alternative DB | 13+ |
+| **Git** | Version Control | Latest |
 
-## 📊 Örnek Veritabanı Şeması
+## 📊 Sample Database Schema
 
-Pratik veritabanımız kapsamlı bir üniversite yönetim sistemi içerir:
+Our practice database includes a university management system:
 
 ```
-🏛️ Üniversite Veritabanı Şeması
+🏛️ University Database Schema
 
-Öğrenciler (15 kayıt)
-├── Kişisel bilgiler (isim, email, iletişim)
-├── Akademik veriler (GPA, kayıt tarihi, durum)
-└── Derslerle ilişki (enrollments üzerinden)
+Students (15 records)
+├── Personal info (name, email, contact)
+├── Academic data (GPA, enrollment date, status)
+└── Course relationships via enrollments
 
-Dersler (18 kayıt)
-├── Ders detayları (kod, isim, kredi)
-├── Bölüm ilişkisi
-└── Ön koşul ilişkileri
+Courses (18 records)
+├── Course details (code, name, credits)
+├── Department association
+└── Prerequisite relationships
 
-Bölümler (6 kayıt)
-├── Bölüm bilgileri
-├── Bölüm başkanı
-└── Bina ve iletişim detayları
+Departments (6 records)
+├── Department info
+├── Head of department
+└── Building and contact details
 
-Öğretim Üyeleri (10 kayıt)
-├── Fakülte bilgileri
-├── Bölüm ilişkisi
-└── Akademik unvan ve maaş
+Instructors (10 records)
+├── Faculty info
+├── Department association
+└── Academic title and salary
 
-Kayıtlar (50+ kayıt)
-├── Öğrenci-ders ilişkileri
-├── Not takibi
-└── Dönem ve yıl bilgileri
+Enrollments (50+ records)
+├── Student-course relationships
+├── Grade tracking
+└── Semester and year info
 ```
 
-## 🎯 Pratik Alıştırmalar
+## 🎯 Practice Exercises
 
-### 📈 Zorluk Seviyeleri
+### 📈 Difficulty Levels
 
-| Seviye | Açıklama | Dosyalar |
-|--------|----------|----------|
-| **Başlangıç** | Temel SELECT, WHERE, ORDER BY | `03_Basic_Queries.sql` |
-| **Orta** | JOIN'ler, alt sorgular, toplamalar | `04_Advanced_Queries.sql` |
-| **İleri** | Window fonksiyonları, CTE'ler, optimizasyon | `05_DML_Operations.sql` |
-| **Uzman** | Karmaşık senaryolar, performans ayarlama | `06_DataGrip_Practice.sql` |
+| Level | Description | Files |
+|-------|-------------|-------|
+| **Beginner** | Basic SELECT, WHERE, ORDER BY | `03_Basic_Queries.sql` |
+| **Intermediate** | JOINs, subqueries, aggregates | `04_Advanced_Queries.sql` |
+| **Advanced** | Window functions, CTEs, optimization | `05_DML_Operations.sql` |
+| **Expert** | Complex scenarios, performance tuning | `06_DataGrip_Practice.sql` |
 
-### 🏆 Alıştırma Kategorileri
+### 🏆 Exercise Categories
 
-- **Veri Getirme**: Çeşitli koşullarla SELECT sorguları
-- **Veri İşleme**: INSERT, UPDATE, DELETE işlemleri
-- **Veri Analizi**: Toplamalar, gruplama ve istatistikler
-- **Veritabanı Tasarımı**: Şema optimizasyonu ve normalizasyon
-- **Performans Ayarı**: İndeksleme ve sorgu optimizasyonu
+- **Data Retrieval**: SELECT queries with various conditions
+- **Data Manipulation**: INSERT, UPDATE, DELETE operations
+- **Data Analysis**: Aggregations, grouping, and statistics
+- **Database Design**: Schema optimization and normalization
+- **Performance Tuning**: Indexing and query optimization
 
-## 📚 Çalışma Kaynakları
+## 📚 Study Resources
 
-### 📖 Önerilen Okumalar
-- **Ders Kitabı**: Database Management Systems by Raghu Ramakrishnan
-- **SQL Referansı**: W3Schools SQL Tutorial
-- **Pratik Platform**: HackerRank SQL Challenges
+### 📖 Recommended Reading
+- **Textbook**: Database Management Systems by Raghu Ramakrishnan
+- **SQL Reference**: W3Schools SQL Tutorial
+- **Practice Platform**: HackerRank SQL Challenges
 
-### 🔗 Faydalı Linkler
-- [MySQL Dokümantasyonu](https://dev.mysql.com/doc/)
-- [PostgreSQL Dokümantasyonu](https://www.postgresql.org/docs/)
-- [DataGrip Kullanıcı Kılavuzu](https://www.jetbrains.com/help/datagrip/)
-- [SQL Fiddle](http://sqlfiddle.com/) - Online SQL test
+### 🔗 Useful Links
+- [MySQL Documentation](https://dev.mysql.com/doc/)
+- [PostgreSQL Documentation](https://www.postgresql.org/docs/)
+- [DataGrip User Guide](https://www.jetbrains.com/help/datagrip/)
+- [SQL Fiddle](http://sqlfiddle.com/) - Online SQL testing
 
-## 👨‍🎓 Öğrenci Hakkında
+## 👨‍🎓 About the Student
 
-**İsim**: [Adınız]  
-**Ders**: CS301 Veritabanı Yönetim Sistemleri  
-**Üniversite**: [Üniversiteniz]  
-**Dönem**: 2025-2026 Bahar  
+**Name**: [Your Name]  
+**Course**: CS301 Database Management Systems  
+**University**: [Your University]  
+**Semester**: 2025-2026 Spring  
 
-## 📞 İletişim
+## 📞 Contact
 
-- **Email**: [email@universite.edu]
-- **GitHub**: [@kullanici-adi](https://github.com/kullanici-adi)
+- **Email**: [email@university.edu]
+- **GitHub**: [@username](https://github.com/username)
 
 ---
 
-⭐ **Bu repository'yi yıldızla** veritabanı çalışmalarınız için faydalı bulduysanız!
+⭐ **Star this repository** if you found it helpful for your database studies!
 
-📚 **İyi Çalışmalar!** SQL pratik yapmaya devam edin!
+📚 **Happy Learning!** Keep practicing SQL!
