@@ -177,17 +177,6 @@ Enrollments (50+ records)
 - [DataGrip User Guide](https://www.jetbrains.com/help/datagrip/)
 - [SQL Fiddle](http://sqlfiddle.com/) - Online SQL testing
 
-## 👨‍🎓 About the Student
-
-**Name**: [Your Name]  
-**Course**: CS301 Database Management Systems  
-**University**: [Your University]  
-**Semester**: 2025-2026 Spring  
-
-## 📞 Contact
-
-- **Email**: [email@university.edu]
-- **GitHub**: [@username](https://github.com/username)
 
 ---
 
